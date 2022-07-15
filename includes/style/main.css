@@ -186,7 +186,7 @@ nav li a {
 @media screen and (max-width: 1150px) {
   .VarchasMain {
     margin-left: 6vw;
-    height: fit-content;
+    height: 50vh;
   }
   .main {
     height: fit-content;
@@ -325,13 +325,7 @@ nav li a {
 /* media quierys */
 @media screen and (max-width: 1150px) {
   .award {
-    margin: 0 0 1vh -3vw;
-  }
-  .SilverMedal {
-    letter-spacing: none;
-  }
-  .SpiritsComp {
-  letter-spacing: none;
+    margin: 1vh 0 1vh -3vw;
   }
 }
 
