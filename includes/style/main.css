@@ -577,13 +577,11 @@ form input[type="text"] {
   padding: 0.5vw;
   font: normal normal 300 1vw FreightBig Pro;
   color: #d2d2d2;
-  border-radius: 0;
 }
 form input::placeholder {
   text-align: left;
   font: normal normal 300 1vw FreightBig Pro;
   color: #d2d2d2;
-  border-radius: 0;
 }
 form input[type="email"] {
   background: #00000070 0% 0% no-repeat padding-box;
@@ -592,7 +590,6 @@ form input[type="email"] {
   margin-bottom: 2vh;
   font: normal normal 300 1vw FreightBig Pro;
   color: #d2d2d2;
-  border-radius: 0;
 }
 
 form .name {
@@ -611,7 +608,6 @@ form select {
   font: normal normal 300 1vw FreightBig Pro;
   color: #d2d2d2;
   margin-bottom: 2vh;
-  border-radius: 0;
 }
 form .checkbox {
   width: 100%;
@@ -746,16 +742,13 @@ form .submitBtn {
     font-size: 5vw;
     padding: 1vw 2vw;
   }
-  form input::placeholder {
-    font-size: 5vw;
-  }
   form input[type="email"] {
     font-size: 5vw;
     padding: 1vw 2vw;
     margin-bottom: 1vh;
   }
   form select {
-    font-size: 5vw;
+    font-size: 3vw;
     padding: 1vw 2vw;
     height: 5vh;
     border-radius: 0;
@@ -1088,7 +1081,6 @@ footer textarea {
   height: 16vh;
   margin-bottom: 1vh;
   padding: 0.5vw;
-  border-radius: 0;
 }
 footer textarea::placeholder {
   text-align: left;
@@ -1217,7 +1209,7 @@ footer .checkbox {
     font-size: 3vw;
   }
   footer textarea {
-    padding: 1vw;
+    padding: 1vw 2vw;
     font-size: 3vw;
   }
   footer textarea::placeholder {
