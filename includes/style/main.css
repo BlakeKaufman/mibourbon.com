@@ -359,6 +359,7 @@ nav li a {
   }
   .award img {
     width: 15vw;
+    margin-right: 1vw;
   }
   .SilverMedal {
     letter-spacing: normal;
@@ -901,6 +902,7 @@ form .submitBtn {
     width: 45%;
   }
   .newsAndEvents .content {
+    height: 78vh;
     overflow: scroll;
     z-index: -1;
   }
