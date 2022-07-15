@@ -250,7 +250,7 @@ nav li a {
   }
   .buttons .top {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
   .content .buttons img {
@@ -262,13 +262,6 @@ nav li a {
   }
   .buttons .bottom {
     margin: 0;
-  }
-}
-@media screen and (max-width: 380px) {
-  .buttons .top {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
   }
 }
 
@@ -359,9 +352,26 @@ nav li a {
     font-size: 2vw;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .award .right {
     margin-top: 1vh;
+    align-items: center;
+  }
+  .award img {
+    width: 15vw;
+  }
+  .SilverMedal {
+    letter-spacing: normal;
+    font-size: 4vw;
+  }
+  .SpiritsComp {
+    font-size: 3vw;
+  }
+  .award .right img {
+    width: 6vw;
+  }
+  .award .right span {
+    font-size: 4vw;
   }
 }
 /* NEW SECTION START */
@@ -706,7 +716,7 @@ form .submitBtn {
     width: 20vw;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
   .joinTheClub {
     height: 100%;
   }
@@ -744,6 +754,7 @@ form .submitBtn {
     font-size: 5vw;
     padding: 1vw 2vw;
     height: 5vh;
+    border-radius: 0;
   }
   form .checkbox {
     font: normal normal 300 3vw FreightBig Pro;
@@ -779,9 +790,12 @@ form .submitBtn {
   align-items: center;
   color: white;
 }
-.newsAndEvents .content .news_Events {
-  margin-top: 2vh;
-  width: 15%;
+.news_Events {
+  width: 20%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2vh;
 }
 .newsAndEvents .news {
   width: 80%;
@@ -879,16 +893,25 @@ form .submitBtn {
 }
 
 /* media quires */
-@media screen and (max-width: 1000px) {
-  .newsAndEvents {
-    overflow: scroll;
+@media screen and (max-width: 1200px) {
+  .news_Events {
+    width: auto;
+    height: 20vh;
   }
+}
+@media screen and (max-width: 1000px) {
   .newsAndEvents .content .news_Events {
     width: 45%;
+  }
+  .newsAndEvents .content {
+    height: 78vh;
+    overflow: scroll;
+    z-index: -1;
   }
   .newsAndEvents .news {
     display: flex;
     flex-direction: column;
+    overflow: scroll;
   }
   .newsAndEvents .latestNews {
     width: 100%;
@@ -931,6 +954,13 @@ form .submitBtn {
   }
 }
 @media screen and (max-width: 600px) {
+  .newsAndEvents .latestNews {
+    width: 99%;
+    height: fit-content;
+  }
+  .newsAndEvents .latestEvents {
+    width: 99%;
+  }
   .newsAndEvents .content .news_Events {
     width: 65%;
   }
