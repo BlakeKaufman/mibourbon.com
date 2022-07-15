@@ -327,6 +327,12 @@ nav li a {
   .award {
     margin: 0 0 1vh -3vw;
   }
+  .SilverMedal {
+    letter-spacing: none;
+  }
+  .SpiritsComp {
+  letter-spacing: none;
+  }
 }
 
 @media screen and (max-width: 770px) {
