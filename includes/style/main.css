@@ -1080,6 +1080,7 @@ footer textarea {
   height: 16vh;
   margin-bottom: 1vh;
   padding: 0.5vw;
+  border-radius: 0;
 }
 footer textarea::placeholder {
   text-align: left;
