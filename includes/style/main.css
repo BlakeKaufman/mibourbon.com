@@ -902,6 +902,7 @@ form .submitBtn {
     width: 45%;
   }
   .newsAndEvents .content {
+    height: 78vh;
     overflow: scroll;
     z-index: -1;
   }
