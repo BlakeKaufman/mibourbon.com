@@ -577,6 +577,7 @@ form input[type="text"] {
   padding: 0.5vw;
   font: normal normal 300 1vw FreightBig Pro;
   color: #d2d2d2;
+  border-radius: 0;
 }
 form input::placeholder {
   text-align: left;
@@ -590,6 +591,7 @@ form input[type="email"] {
   margin-bottom: 2vh;
   font: normal normal 300 1vw FreightBig Pro;
   color: #d2d2d2;
+  border-radius: 0;
 }
 
 form .name {
@@ -739,11 +741,9 @@ form .submitBtn {
     margin-bottom: 3vh;
   }
   form input[type="text"] {
-    font-size: 5vw;
     padding: 1vw 2vw;
   }
   form input[type="email"] {
-    font-size: 5vw;
     padding: 1vw 2vw;
     margin-bottom: 1vh;
   }
