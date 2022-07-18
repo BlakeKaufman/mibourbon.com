@@ -847,11 +847,11 @@ form .submitBtn {
 /* NEWS AND EVENTS */
 .newsAndEvents {
   width: 100vw;
-  height: 100vh;
+  height: fit-content;
 }
 .newsAndEvents .background {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   position: absolute;
   object-fit: cover;
   object-position: center;
