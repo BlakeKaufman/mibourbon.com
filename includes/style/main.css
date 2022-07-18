@@ -233,7 +233,7 @@ nav li a {
 }
 @media screen and (max-width: 480px) {
   .VarchasMain {
-    margin-top: 54vh;
+    margin-top: 50vh;
   }
   .TitleText {
     width: 100%;
@@ -400,6 +400,12 @@ nav li a {
     z-index: -1;
   }
   /* content */
+  .content {
+    align-items: center;
+  }
+  .content .buttons {
+    text-align: center;
+  }
   .content .TitleImg {
     width: 90%;
   }
@@ -413,6 +419,12 @@ nav li a {
     flex-direction: row;
   }
 }
+@media screen and (orientation: landscape) and (max-height: 700px) {
+  .VarchasMain {
+    margin-top: 30vh;
+  }
+}
+
 /* NEW SECTION START */
 /* OUR STORY */
 .ourStory {
@@ -552,6 +564,10 @@ nav li a {
   }
 }
 @media screen and (orientation: landscape) and (max-height: 480px) {
+  .barrels {
+    background-position-y: 110%;
+    justify-content: left;
+  }
 }
 
 /* NEW SECTION  */
@@ -918,6 +934,7 @@ form .submitBtn {
     display: flex;
     flex-direction: column;
     overflow: scroll;
+    padding: 0;
   }
   .newsAndEvents .latestNews {
     width: 100%;
@@ -931,6 +948,12 @@ form .submitBtn {
   }
   .newsAndEvents .container {
     width: 50%;
+  }
+  .newsAndEvents .mainTitle {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: black;
   }
   .br-right {
     border-style: none;
@@ -1005,7 +1028,9 @@ form .submitBtn {
     width: 85%;
   }
   .newsAndEvents .mainTitle {
-    font-size: 5vw;
+    font-size: 8vw;
+    text-align: center;
+    padding: 1vh 0;
   }
   .newsAndEvents .container {
     margin-bottom: 2vh;
@@ -1201,6 +1226,10 @@ footer .checkbox {
   }
   footer form .bname {
     flex-direction: column;
+    margin: 0;
+  }
+  footer .bname {
+    margin: 0;
   }
   footer .contact .title {
     font-size: 3.5vw;
@@ -1310,9 +1339,6 @@ footer .checkbox {
   }
 }
 @media screen and (orientation: landscape) and (max-height: 480px) {
-  form .bname input[type="text"] {
-    margin-bottom: 1vh;
-  }
   footer {
     height: fit-content;
   }
