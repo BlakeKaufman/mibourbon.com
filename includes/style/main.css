@@ -2,6 +2,24 @@ body {
   background-color: black;
   box-sizing: border-box;
 }
+/* scroll to top button style */
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 5vh;
+  right: 1vw;
+  z-index: 99;
+  opacity: 0.9;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0;
+  width: 3vw;
+}
+#myBtn img {
+  height: auto;
+  width: 100%;
+}
 /* nav */
 
 /* ractangle top */
@@ -40,6 +58,9 @@ body {
   .MainBackground {
     height: 50%;
   }
+  #myBtn {
+    width: 6vw;
+  }
 }
 
 /* nav bars */
@@ -60,6 +81,12 @@ nav {
   border-top: 4px solid #e8be4c57;
   border-bottom: 4px solid #e8be4c57;
   z-index: 2;
+}
+a:hover {
+  cursor: pointer;
+}
+button:hover {
+  cursor: pointer;
 }
 .logo {
   width: 10vw;
@@ -104,7 +131,7 @@ nav li a {
 /* media quiries nav bar */
 @media screen and (max-width: 770px) {
   nav {
-    height: 12vh;
+    height: 100px;
   }
   nav ul {
     display: none;
@@ -129,6 +156,29 @@ nav li a {
   }
 }
 
+/* mobile nav */
+.mobileNav {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: none;
+  position: fixed;
+  top: 104px;
+}
+.mobileUl {
+  height: 100%;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 8vh;
+}
+
+.mobileNav a {
+  font-size: 5vw;
+  line-height: 7vh;
+}
 /* main picture */
 .main {
   height: 100vh;
@@ -234,6 +284,12 @@ nav li a {
 @media screen and (max-width: 480px) {
   .VarchasMain {
     margin-top: 50vh;
+  }
+  header {
+    height: 100px;
+  }
+  nav {
+    height: 100%;
   }
   .TitleText {
     width: 100%;
@@ -373,7 +429,7 @@ nav li a {
 }
 
 /* LANDSCAPE MODE */
-@media screen and (orientation: landscape) and (max-height: 375px) {
+@media screen and (orientation: landscape) and (max-height: 375px) and (max-width: 700px) {
   header {
     height: 16vh;
   }
@@ -414,7 +470,7 @@ nav li a {
     flex-direction: row;
   }
 }
-@media screen and (orientation: landscape) and (min-height: 380px) {
+@media screen and (orientation: landscape) and (max-height: 380px) {
   .VarchasMain {
     margin-top: 18vh;
   }
@@ -945,14 +1001,6 @@ form .submitBtn {
   .newsAndEvents .container {
     width: 50%;
   }
-  .newsAndEvents .mainTitle {
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background: white;
-    margin-bottom: 2vh;
-    border-radius: 1vw;
-  }
   .br-right {
     border-style: none;
   }
@@ -993,6 +1041,13 @@ form .submitBtn {
   }
   .newsAndEvents .mainTitle {
     font-size: 5vw;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: white;
+    margin-bottom: 2vh;
+    border-radius: 1vw;
+    text-align: center;
   }
   .newsAndEvents .container {
     margin-bottom: 2vh;
@@ -1109,7 +1164,7 @@ footer .contact .content {
   height: auto;
   width: 40%;
   padding: 2vw;
-  margin-right: 2vw;
+  margin-right: 5vw;
 }
 
 footer .contact .title {
