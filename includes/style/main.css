@@ -373,7 +373,7 @@ nav li a {
 }
 
 /* LANDSCAPE MODE */
-@media screen and (orientation: landscape) and (max-height: 480px) {
+@media screen and (orientation: landscape) and (max-height: 375px) {
   header {
     height: 16vh;
   }
@@ -388,16 +388,11 @@ nav li a {
   }
   .VarchasMain {
     width: 45%;
-    margin: 20vh 0 0 4vw;
+    margin: 13vw 0 0 4vw;
     top: 0;
   }
   .MainBackground {
-    position: absolute;
-    width: 100vw;
     height: 100vh;
-    object-fit: cover;
-    object-position: right;
-    z-index: -1;
   }
   /* content */
   .content {
@@ -419,9 +414,9 @@ nav li a {
     flex-direction: row;
   }
 }
-@media screen and (orientation: landscape) and (max-height: 700px) {
+@media screen and (orientation: landscape) and (min-height: 380px) {
   .VarchasMain {
-    margin-top: 30vh;
+    margin-top: 18vh;
   }
 }
 
@@ -929,6 +924,7 @@ form .submitBtn {
     height: 78vh;
     overflow: scroll;
     z-index: -1;
+    margin-top: 1vh;
   }
   .newsAndEvents .news {
     display: flex;
@@ -953,7 +949,9 @@ form .submitBtn {
     position: sticky;
     top: 0;
     width: 100%;
-    background: black;
+    background: white;
+    margin-bottom: 2vh;
+    border-radius: 1vw;
   }
   .br-right {
     border-style: none;
@@ -1071,6 +1069,7 @@ form .submitBtn {
   }
   .newsAndEvents .mainTitle {
     font-size: 4.5vw;
+    text-align: center;
   }
   .newsAndEvents .container img {
     height: 43vh;
@@ -1262,6 +1261,10 @@ footer .checkbox {
   footer .checkbox {
     font-size: 3vw;
   }
+  .heightTa {
+    height: 16vh;
+  }
+
   .varification .submitBtn {
     width: 30vw;
   }
@@ -1344,5 +1347,8 @@ footer .checkbox {
   }
   footer .contact .content {
     margin: 12vh 0;
+  }
+  .heightTa {
+    height: 25vh;
   }
 }
