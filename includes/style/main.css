@@ -429,7 +429,7 @@ nav li a {
 }
 
 /* LANDSCAPE MODE */
-@media screen and (orientation: landscape) and (max-height: 375px) and (max-width: 700px) {
+@media screen and (orientation: landscape) and (max-height: 375px) and (max-width: 740px) {
   header {
     height: 16vh;
   }
