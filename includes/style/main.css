@@ -978,7 +978,6 @@ form .submitBtn {
   }
   .newsAndEvents .content {
     height: 78vh;
-    overflow: scroll;
     z-index: -1;
     margin-top: 1vh;
   }
