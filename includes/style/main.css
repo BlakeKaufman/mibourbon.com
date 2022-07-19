@@ -984,7 +984,7 @@ form .submitBtn {
   .newsAndEvents .news {
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: scroll;
     padding: 0;
   }
   .newsAndEvents .latestNews {
