@@ -6,7 +6,7 @@ body {
 #myBtn {
   display: none;
   position: fixed;
-  bottom: 5vh;
+  bottom: 13vh;
   right: 1vw;
   z-index: 99;
   opacity: 0.9;
@@ -429,7 +429,7 @@ nav li a {
 }
 
 /* LANDSCAPE MODE */
-@media screen and (orientation: landscape) and (max-height: 375px) and (max-width: 740px) {
+@media screen and (orientation: landscape) and (max-height: 385px) and (max-width: 740px) {
   header {
     height: 16vh;
   }
@@ -470,7 +470,7 @@ nav li a {
     flex-direction: row;
   }
 }
-@media screen and (orientation: landscape) and (max-height: 380px) {
+@media screen and (orientation: landscape) and (max-height: 385px) {
   .VarchasMain {
     margin-top: 18vh;
   }
@@ -602,6 +602,14 @@ nav li a {
   .barrels span {
     font-size: 3vw;
     width: 35vw;
+  }
+  .barrels img {
+    width: 15vw;
+  }
+}
+@media screen and (max-width: 760px) {
+  .barrels img {
+    width: 21vw;
   }
 }
 @media screen and (max-width: 480px) {
@@ -984,7 +992,7 @@ form .submitBtn {
   .newsAndEvents .news {
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
+    overflow: scroll;
     padding: 0;
   }
   .newsAndEvents .latestNews {
