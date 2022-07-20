@@ -627,6 +627,9 @@ nav li a {
     background-position-y: 110%;
     justify-content: left;
   }
+   .barrels img {
+    width: 10vw;
+  }
 }
 
 /* NEW SECTION  */
