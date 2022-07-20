@@ -231,14 +231,14 @@ nav li a {
   .MainBackground {
     margin-top: 3vh;
     position: unset;
-    height: 60vh;
+    height: 71vh;
   }
   .main {
     height: fit-content;
   }
   .VarchasMain {
     width: 90vw;
-    margin: 0 auto;
+    margin: -1vh auto 0;
     height: fit-content;
   }
   .TitleText {
