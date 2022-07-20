@@ -50,16 +50,7 @@ body {
 @media screen and (max-width: 1150px) {
   .MainBackground {
     height: 70%;
-    top: 6vh;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  .MainBackground {
-    height: 50%;
-  }
-  #myBtn {
-    width: 6vw;
+    top: 0;
   }
 }
 
@@ -131,7 +122,7 @@ nav li a {
 /* media quiries nav bar */
 @media screen and (max-width: 770px) {
   nav {
-    height: 80px;
+    height: 100px;
     border-top: none;
   }
   nav ul {
@@ -182,13 +173,13 @@ nav li a {
 }
 /* main picture */
 .main {
-  height: 100vh;
+  height: 82vh;
   width: 100vw;
   /* background-color: black; */
 }
 .VarchasMain {
   width: 32vw;
-  height: 80vh;
+  height: 79vh;
   margin: 20vh 0 0 10vw;
   display: flex;
   flex-direction: column;
@@ -237,29 +228,18 @@ nav li a {
 
 /* media quirees for Main sections */
 @media screen and (max-width: 1150px) {
-  .VarchasMain {
-    margin-left: 6vw;
-    height: fit-content;
+  .MainBackground {
+    margin-top: 3vh;
+    position: unset;
+    height: 60vh;
   }
-  .main {
-    height: fit-content;
-  }
-  .TitleText {
-    font-size: 1.5vw;
-  }
-}
-@media screen and (max-width: 1080px) {
-  .content .buttons img {
-    width: 14vw;
-  }
-}
-@media screen and (max-width: 770px) {
   .main {
     height: fit-content;
   }
   .VarchasMain {
     width: 90vw;
-    margin: 57vh auto 0;
+    margin: 0 auto;
+    height: fit-content;
   }
   .TitleText {
     width: 80%;
@@ -270,13 +250,29 @@ nav li a {
     align-self: center;
   }
   .content .buttons img {
-    width: 22vw;
+    width: 15vw;
   }
   .content .buttons {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+@media screen and (max-width: 600px) {
+  .VarchasMain {
+    height: 50vh;
+  }
+  .TitleText {
+    width: 100%;
+    font-size: 3vw;
+  }
+  .content .TitleImg {
+    width: 80%;
+    align-self: center;
+  }
+  .content .buttons img {
+    width: 25vw;
   }
 }
 @media screen and (max-width: 480px) {
