@@ -977,6 +977,9 @@ form .submitBtn {
   .newsAndEvents .content .news_Events {
     width: 45%;
   }
+  .newsAndEvents .background {
+    height: 100vh;
+  }
   .newsAndEvents .content {
     height: 78vh;
     z-index: -1;
@@ -1065,6 +1068,7 @@ form .submitBtn {
   }
   .newsAndEvents .container .title {
     font-size: 4vw;
+    height: fit-content;
   }
   .newsAndEvents .container .description {
     font-size: 3.5vw;
